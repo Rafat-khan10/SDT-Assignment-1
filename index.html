@@ -1,45 +1,320 @@
-<!--
-  Hit RUN to see this project in action!
+<!DOCTYPE html> 
+<html> 
+<head> 
+ <link href="mystyle.css" rel="stylesheet" type="text/css" > 
+
+  <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   
-  This project will auto-refresh as you edit the HTML, CSS and JS. See README.md for more info (including how to disable auto-refresh and install packages).
--->
 
-<!DOCTYPE html>
-<html>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-</head>
 
-<body>
-  <main>
-    <h1 class="title">Welcome to HTML on Replit!</h1>
-    <p class="description">Get started by editing
-      <code class="code">index.html</code>. The webview will auto-refresh as you edit! (See <code
-        class="code">README.md</code> if you want to
-      disable auto-refresh.)
-    </p>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <section class="grid">
-      <a href="https://replit.com/learn" class='card'>
-        <h2>Learn &rarr;</h2>
-        <p>Find tutorials on Replit to learn more.</p>
-      </a>
 
-      <a href="https://docs.replit.com/category/deployments" class='card'>
-        <h2>Deploy &rarr;</h2>
-        <p>
-          After you are happy with this app, deploy it on Replit!
-        </p>
-      </a>
-    </section>
-  </main>
+</head> 
+<body> 
 
-  <script type="module" src="script.js"></script>
+   <div class="container-fluid">
 
-</body>
+       <header>
+     
+            <nav class="navbar navbar-expand-sm  bg-dark justify-content-center ">
 
+              <a class="navbar-brand ms-5" href="#">
+                  <img class ="ms-3" src="https://upload.wikimedia.org/wikipedia/commons/d/dc/Portfolio.hu_full_logo.png" alt="logo" width="100" height="50">
+              </a>
+               <ul class="navbar-nav  m-auto  ">
+                   <li class="nav-item" ><a class="nav-link text-white" href="#">Home</a></li>
+                   <li class="nav-item" ><a class="nav-link text-white"  href="#">Portfolio</a></li>
+                   <li  class="nav-item" ><a class="nav-link text-white"  href="#">Skills</a></li>
+                   <li  class="nav-item"><a class="nav-link text-white" href="#">About</a></li>
+
+                   <button class="btn btn-primary ms-3">Resume<i class=" ms-1 bg-dark ri-arrow-down-line"></i>                   
+                   </button>
+          
+               </ul>
+           </nav>
+
+       </header>
+
+       <!-- main div is start here -->
+       <main class=" bg-dark">
+                  <div class="row">
+
+                      <div class="col-6 col-md-6">
+                          <div class="p-3">
+                              <h1 class="text-primary p-3">
+                                  HI !
+                                  <br>
+                                  I'M RAFAT KHAN
+                              </h1>
+
+                                   <P class="text-white" >programmer || python developer</P>
+                                     <p class="text-white" > I am learning software development.Recently I have learned HTML,CSS and now Bootstrap</p>
+
+
+                                  <i class="p-2  text-info fa-brands fa-github"></i>
+                                  <i class="p-2  text-info fab fa-linkedin-in"></i>
+                                  <i class="p-2  text-info fa-brands fa-youtube"></i>
+                                  <button class="btn btn-info ms-3">Resume<i class="ms-1 text-white bg-dark ri-arrow-down-line"></i>                   
+                                         </button>                                            
+                          </div>
+
+                      </div>    
+
+                        <div class="col-12 col-md-6">
+                            <div class="p-3 bg-dark ms-5">
+                                <img  src="My_image.jpg" alt="image" class="ms-5 w-200px" height="300px" style=" margin-left: 50px;">
+                            </div>
+
+                         </div>  
+        
+                  </div>
+
+           <h1 class="text-white text-center mb-5">Portfolio</h1>
+
+           <!-- This is the start section of first portfolio card -->
+           <div class="card bg-dark text-white border border-primary w-75 h-25 m-auto mb-5">
+
+               <div class="row">
+                   <div class="col-12 col-md-6">
+                       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                         <div class="carousel-indicators">
+                           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                         </div>
+                         <div class="carousel-inner">
+                           <div class="carousel-item active">
+                             <img src="https://www.pixel-studios.com/blog/wp-content/uploads/2018/12/012-1200x600.jpg" class="d-block w-100 h-100" alt="...">
+                           </div>
+                           <div class="carousel-item">
+                             <img src="https://crampete-staticfiles.s3.ap-south-1.amazonaws.com/images/blog/library-management-system.webp" class="d-block w-100 h-100" alt="...">
+                           </div>
+                           <div class="carousel-item">
+                             <img src="https://assets.devfolio.co/projects/88491c4396784e09afbb1810fcbfcd22/pic52pyq3evq.jpeg" class="d-block w-100 h-100" alt="...">
+                           </div>
+                         </div>
+                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                           <span class="visually-hidden">Previous</span>
+                         </button>
+                         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                           <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                           <span class="visually-hidden">Next</span>
+                         </button>
+                       </div>
+                   
+                   </div>
+
+                   
+                   <div class="col-12 col-md-6">
+                       <div class="card-body ">
+                          <h3 class="card-title">Library Management System</h3>
+                          <p class="card-text">This is Library management System Website.User can login vai Facebook sing-in.Google sign-in and alsop can create a new account for use this website.user can borrow books which is available in this website</p>
+                         <ul>
+                             <li>User can choose books for he/she want.</li>
+                             <li>User also can see the details of the books.</li>
+                             <li>User also can see the required books that is available or not of the library.</li>
+                         </ul>
+
+                          <div class="d-flex text-white">
+                               <p class="ms-3 bg-secondary ">React</p>
+                               <p class="ms-3 bg-secondary ">Firebase</p>
+                               <p class="ms-3 bg-secondary " >HTML</p>
+                               <p class="ms-3 bg-secondary ">CSS</p>
+
+                          </div>
+
+                        </div>                      
+                  </div>
+                                    
+               </div>
+
+                     
+           </div>
+
+             <!-- This is the end section of first portfolio card -->
+
+
+             <!-- This is the start section of second portfolio card -->
+
+           <div class="card bg-dark text-white border border-primary w-75 h-25 m-auto mb-5">
+
+                  <div class="row">
+                      <div class="col-12 col-md-6">
+                          <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="https://retiba.com/wp-content/uploads/2021/04/Restaurant-Management-Software-retiba.jpg" class="d-block w-100 h-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20231117161816/High-level-design-of-restaurant-management-system.jpg" class="d-block w-100 h-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="https://www.outputbooks.com/wp-content/themes/outputbooks/images/restaurant-software-header.png" class="d-block w-100 h-100" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+
+                      </div>
+
+
+                      <div class="col-12 col-md-6">
+                          <div class="card-body ">
+                             <h3 class="card-title">Restaurant Management System</h3>
+                             <p class="card-text">This is Restaurant management System Website.User can login vai Facebook sign-in.Google sign-in and also can create a new account for use this website.user can order food which is available in this website</p>
+                           
+
+                            <ul>
+                                <li>User can order foods for he/she want.</li>
+                                <li>User also can see the details of the foods.</li>
+                                <li>User also can see the required foods that is available or not of the library.</li>
+                            </ul>
+
+                             <div class="d-flex text-white">
+                                  <p class="ms-3 bg-secondary ">React</p>
+                                  <p class="ms-3 bg-secondary ">Firebase</p>
+                                  <p class="ms-3 bg-secondary " >HTML</p>
+                                  <p class="ms-3 bg-secondary ">CSS</p>
+
+                             </div>
+
+                           </div>
+                     </div>
+
+                  </div>
+              </div>
+
+           <!-- This is the end section of second portfolio card -->
+
+              <h2 class="text-white ms-4">Epertise:</h2>
+
+           <div class="d-flex text-white ms-4 mt-4">
+                  <p class="ms-3 bg-secondary ">React.js</p>
+                  <p class="ms-3 bg-secondary ">Javascript</p>
+                  <p class="ms-3 bg-secondary " >HTML</p>
+                  <p class="ms-3 bg-secondary ">CSS</p>
+           
+
+             </div>
+           <div class="d-flex text-white ms-5 mt-2">
+                 <p class="ms-3 bg-secondary ">Node.js</p>
+                 <p class="ms-3 bg-secondary ">MongoDB</p>
+                 <p class="ms-3 bg-secondary " >HTML</p>
+            </div>
+            
+
+           <h2 class="text-white ms-4 mt-3">Comfortable:</h2>
+
+           <div class="row"> 
+               <div class="col-7 col-md-6">
+
+               <div class=" d-flex text-white ms-5 mt-4">
+             
+                    <p class="bg-secondary ">SQL</p>
+                    <p class="ms-3 bg-secondary ">Typescript</p>
+                  
+               </div>
+
+               </div> 
+
+
+             <div class="col-5 col-md-4 bg-dark">
+
+               <h2 class="text-info ms-4 mt-5 ">My Education:</h2>
+               <p class="ms-4  bg-dark text-white">B.Sc in Computer Science And Engineering</p>
+               <p class="ms-4 mt-1 bg-dark text-white">United International University</p>
+
+
+             </div> 
+   
+           
+           </div>
+         
+           <h2 class="text-white ms-4">Familiar:</h2>
+
+             <div class="d-flex text-white ms-4 mt-4">
+                    <p class="ms-3 bg-secondary ">C++</p>
+                    <p class="ms-3 bg-secondary ">Python</p>
+                    <p class="ms-3 bg-secondary " >Networking</p>
+
+               </div>
+
+           <h2 class="text-white ms-4 mt-3">Tools:</h2>
+
+            <div class="d-flex text-white ms-5 mt-4">
+                   <p class="ms-1 bg-secondary ">VS Code</p>
+                   <p class="ms-3 bg-secondary ">Git</p>
+                  
+              </div>
+    
+
+         <h1 class="text-white text-center mb-5">Contact With Me</h1>
+   
+
+         <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-6  col-11">
+
+              <form class="border border-primary p-4 w-51 mx-auto text-center">
+                <div>
+                   <input type="text " class="form-contro bg-dark mb-4" id="email" placeholder="please type your name"> 
+                </div>
+
+                <div>
+                   <input type="email" class="form-control bg-dark mb-4" id="email" placeholder="please type your email">
+                </div>
+
+                <div>
+                   <input type="text" class="form-control bg-dark mb-4 h-50" id="text" placeholder="Type here message">
+                </div>
+    
+                <div>
+            <button class="btn btn-info w-100"> Send </button>
+                </div>
+
+              </form>
+
+          </div>    
+        </div>   
+                       
+       </main>
+
+     <footer>
+
+        <div class="bg-dark text-white text-center p-3">
+             <p>Copyright © 2023 Rafat Khan</p>
+          <p>Uttara,Dhaka,Bangladesh</p>
+
+          <i class="p-2  text-info fa-brands fa-github"></i>
+          <i class="p-2  text-info fab fa-linkedin-in"></i>
+          <i class="p-2  text-info fa-brands fa-youtube"></i>
+         </div>
+
+     </footer>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body> 
 </html>
